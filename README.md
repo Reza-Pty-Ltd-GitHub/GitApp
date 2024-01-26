@@ -1,0 +1,1 @@
+[![Build Status](https://dev.azure.com/Reza-Pty-Ltd/DevProject/_apis/build/status%2FReza-Pty-Ltd-GitHub.GitApp?branchName=main)](https://dev.azure.com/Reza-Pty-Ltd/DevProject/_build/latest?definitionId=4&branchName=main)
