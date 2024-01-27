@@ -1,0 +1,19 @@
+push:
+  branches:
+    - main
+pull_request: 
+  branches: 
+    - main
+
+
+jobs: 
+  build:
+    name: Azure Pipeline
+    runs-on: ubuntu-latest
+    steps: 
+    - name: Azure Pipeline Action
+      uses: Azure/pipelines@v1
+      with:
+        azure-devops-project-url: https://dev.azure.com/Reza-Pty-Ltd/DevProject
+        azure-pipeline-name: 'Reza-Pty-Ltd-GitHub.GitApp'
+        azure-devops-token: ${{secrets.AZURE_DEVOPS_TOKEN}}
